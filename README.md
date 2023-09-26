@@ -135,6 +135,7 @@ http {
     }
 }
 ```
+8081포트로 http접속을 하면 443포트로 redirect한다. 443포트로 접속하면 proxy_pass를 통해 upstream 서버인 backendserver로 요청을 보낸다.
 
 → http://localhost:8081로 접속하면 ssl이 적용된 채 이동하게 된다.
 
