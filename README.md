@@ -102,7 +102,7 @@ http {
 
 openSSL을 설정해주기 위해, openSSL for Window를 다운로드받고 환경변수를 설정해준다.
 
-private, public key와 CSR(인증 서명 요청)서, CA 키, CA의 CSR 생성한 후, 인증서(CRT)를 발급받는다. ([참고](https://narup.tistory.com/239))
+private, public key와 CSR(인증 서명 요청서), CA 키, CA의 CSR을 생성한 후, 인증서(CRT)를 발급받는다. ([참고](https://narup.tistory.com/239))
 
 생성된 인증서와 개인키를 conf 폴더에 넣고 nginx.conf 파일에 다음과 같이 작성한다.
 
